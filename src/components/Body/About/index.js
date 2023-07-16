@@ -1,7 +1,9 @@
 import AboutCard from "./AboutCard";
 import { AboutList } from "./AboutList";
 import "./styles.css";
+
 const About = () => {
+
   return (
     <div className="about-main-container">
       <h1>About Me</h1>
@@ -13,7 +15,7 @@ const About = () => {
         my skills and contribute to the field. Here are My Experience and Education.
       </p>
       <div className="list-item-container">{AboutList.map((item) => {
-        return <AboutCard item={item}/>
+        return <AboutCard className="animation" data-aos="fade-up" item={item}/>
       })}
       </div>
     </div>

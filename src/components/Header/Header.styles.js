@@ -112,7 +112,3 @@ export const RightBody = styled.div`
         }
     }
 `;
-
-export const LeftAboutUs = styled.div`
-    
-`;
