@@ -4,7 +4,7 @@ import Resume from "../../components/Images/Akshat-Mathur Resume.pdf";
 import "./style.css";
 import "tachyons";
 import About from "./About";
-// import Skills from "./Skills";
+import Skills from "./Skills";
 import { HiOutlineDownload } from "react-icons/hi";
 
 const Body = () => {
@@ -46,7 +46,7 @@ const Body = () => {
         </RightBody>
       </div>
       <About />
-      {/* <Skills /> */}
+      <Skills />
       {/* <Projects />
             <Contacts /> */}
     </>
