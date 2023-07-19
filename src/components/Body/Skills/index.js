@@ -4,7 +4,7 @@ import { SkillList } from "../About/Data";
 
 const Skills = () => {
   return (
-    <div className="skills-body-container">
+    <div className="skills-body-container" id="skills">
       <h1>Skills</h1>
       <div className="skills-cards">
         {SkillList.map((item) => (

@@ -44,6 +44,7 @@
 .about-card-container:hover{
     scale: 1.1;
     transition: 5s linear;
+    cursor: zoom-in;
     box-shadow: rgb(167, 40, 45) 0px 20px 30px -10px;
 }
 

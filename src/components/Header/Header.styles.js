@@ -19,16 +19,20 @@ export const LeftSection = styled.div`
 `;
 
 export const Ul = styled.ul`
-    cursor: pointer;
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
-  color: white;
   font-weight: 600;
   margin: 0;
 
   li {
     padding: 18px 50px;
+    a{
+      padding-bottom: 7px;
+      text-decoration: none;
+      color: #ffffff;
+      cursor: pointer;
+  }
   }
 
   @media (max-width: 768px) {
@@ -91,7 +95,7 @@ export const StyledBurger = styled.div`
 export const RightBody = styled.div`
     background: linear-gradient(45deg, red, blue);
     margin-top: -50px;
-    margin-right: 150px;
+    margin-right: 70px;
     border: 1px solid red;
     border-radius: 50%;
     overflow: hidden;

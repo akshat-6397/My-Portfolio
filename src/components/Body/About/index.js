@@ -5,7 +5,7 @@ import "./styles.css";
 const About = () => {
 
   return (
-    <div className="about-main-container">
+    <div className="about-main-container" id="about">
       <h1>About Me</h1>
       <p>
         <h3>Hi!, My name is Akshat Mathur.</h3>

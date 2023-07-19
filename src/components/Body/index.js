@@ -6,11 +6,12 @@ import "tachyons";
 import About from "./About";
 import Skills from "./Skills";
 import { HiOutlineDownload } from "react-icons/hi";
+import Projects from "./Projects";
 
 const Body = () => {
   return (
     <>
-      <div className="main-container">
+      <div className="main-container" id="home">
         <LeftSection>
           <div style={{ margin: "auto", marginTop: "10px", maxWidth: "500px" }}>
             <h1>Hello, It's Me</h1>
@@ -47,8 +48,7 @@ const Body = () => {
       </div>
       <About />
       <Skills />
-      {/* <Projects />
-            <Contacts /> */}
+      <Projects />
     </>
   );
 };

@@ -44,7 +44,9 @@
         &:hover{
             opacity: 1;
             scale: 1.1;
+            transition: 0.2s linear;
             box-shadow: rgb(167, 40, 45) 0px 20px 30px -10px;
+            cursor: zoom-in;
         }
       }
 
