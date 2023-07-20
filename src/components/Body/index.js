@@ -7,6 +7,7 @@ import About from "./About";
 import Skills from "./Skills";
 import { HiOutlineDownload } from "react-icons/hi";
 import Projects from "./Projects";
+import { Link } from "react-scroll";
 
 const Body = () => {
   return (
@@ -38,7 +39,7 @@ const Body = () => {
                   />
                 </button>
               </a>
-              <button className="button_33">Let's Talk</button>
+              <Link activeClass="active" to="contact" spy={true} smooth={true} offset={-120} duration={500}><button className="button_33">Let's Talk</button></Link>
             </div>
           </div>
         </LeftSection>
