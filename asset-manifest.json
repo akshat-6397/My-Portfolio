@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.ce8916a8.css",
+    "main.js": "/My-Portfolio/static/js/main.0146fe9c.js",
+    "static/media/Instagram.png": "/My-Portfolio/static/media/Instagram.8bb3f30e89cf9f361dd9.png",
+    "static/media/ReactJs_logo.png": "/My-Portfolio/static/media/ReactJs_logo.314953ed729b4316fd4d.png",
+    "static/media/Akshat-Mathur Resume.pdf": "/My-Portfolio/static/media/Akshat-Mathur Resume.6167c805dd637b1af993.pdf",
+    "static/media/Github_logo.png": "/My-Portfolio/static/media/Github_logo.2f6f636eac631cb27a8e.png",
+    "static/media/Avatar-wave.png": "/My-Portfolio/static/media/Avatar-wave.96fe79664ed9e871bb6f.png",
+    "static/media/Javascript_logo.jpg": "/My-Portfolio/static/media/Javascript_logo.6adc1ca5957bfa362835.jpg",
+    "static/media/ToDoApp.jpeg": "/My-Portfolio/static/media/ToDoApp.1b727fd76901e23bf2f7.jpeg",
+    "static/media/ExpenseTracker.jpeg": "/My-Portfolio/static/media/ExpenseTracker.0944b2fcfc20c8d0b6c1.jpeg",
+    "static/media/Portfolio.jpeg": "/My-Portfolio/static/media/Portfolio.4b81e69501eed00212c3.jpeg",
+    "static/media/LinkedInIcon.webp": "/My-Portfolio/static/media/LinkedInIcon.0fb3587ca5cf00245a26.webp",
+    "static/media/SQL_logo.webp": "/My-Portfolio/static/media/SQL_logo.315b493882b8e171490d.webp",
+    "index.html": "/My-Portfolio/index.html",
+    "main.ce8916a8.css.map": "/My-Portfolio/static/css/main.ce8916a8.css.map",
+    "main.0146fe9c.js.map": "/My-Portfolio/static/js/main.0146fe9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce8916a8.css",
+    "static/js/main.0146fe9c.js"
+  ]
+}
