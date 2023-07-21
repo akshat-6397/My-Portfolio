@@ -1,8 +1,17 @@
-// import { useState } from "react";
+import { useEffect } from "react";
 import Hamburger from "./Hamburger";
 import { LeftSection } from "./Header.styles";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Header = () => {
+  useEffect(() => {
+    if (window.innerWidth < 768)
+      toast.info("Use Desktop for better experience", {
+        position: "top-center",
+        theme: "colored",
+      });
+  }, []);
   return (
     <div
       style={{
@@ -20,6 +29,7 @@ const Header = () => {
         <h1>Portfolio</h1>
       </LeftSection>
       <Hamburger />
+      <ToastContainer />
     </div>
   );
 };
